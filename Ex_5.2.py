@@ -11,8 +11,6 @@ while True:
     except:
         print('Invalid input')
 
-
-
 largest = None
 smallest = None
 
