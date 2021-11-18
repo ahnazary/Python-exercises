@@ -12,7 +12,7 @@ for line in fh:
     if line.rstrip().startswith("From"):
         count = count + 1
         address = line.split()[1]
-        if address  not in counts:
+        if address not in counts:
             counts[address] = 1
         elif address in counts:
             counts[address] = counts[address] + 1
@@ -24,4 +24,3 @@ for key in counts:
         maxAddress = key
         maxNum = counts[key]
 print(maxAddress, maxNum)
-
