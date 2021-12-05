@@ -1,16 +1,19 @@
 # Python-exercises
-### Solution of assignments of "Python for Everybody Specialization" Course by Charles Russell Severance
+### Solution of assignments for "Python for Everybody Specialization" Course by Charles Russell Severance<br/> <br/>
 
+**Assignment 15.9:<br/>**
+This application will read roster data in JSON format, parse the file, and then produce an SQLite database that contains a User, Course, and Member table and populate the tables from the data file.<br/> <br/>
+<img src="images/Ex_15.9.png" width="700">
+
+------------------------------------------------------
 **Assignment 15.8:<br/>**
 This application will read an iTunes export file in XML and produce a properly normalized database<br/> <br/>
 <img src="images/Ex_15.8.png" width="700">
 
 ------------------------------------------------------
 
-
 **Assignment 15.4:<br/>**
 This application will read the mailbox data (mbox.txt) and count the number of email messages per organization (i.e. domain name of the email address) using a database with the following schema to maintain the counts.
-
   ###### CREATE TABLE Counts (org TEXT, count INTEGER) <br/><br/>
 <img src="images/Ex_15.4.png" width="700">
 
