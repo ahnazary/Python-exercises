@@ -45,4 +45,3 @@ while True:
 
     id = js["results"][0]["place_id"]
     print('ID : ', id)
-
